@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int b, h, a, p;
+    printf("digite a base do retangulo: \n");
+    scanf("%i", &b);
+    printf("digite a altura do retangulo: \n");
+    scanf("%i", &h);
+    
+    printf("a area do retangulo eh: 2.%i\n\n", b * h);
+    printf("o perimetro do retangulo eh: 2.%i\n\n", 2 * b + h);
+}
