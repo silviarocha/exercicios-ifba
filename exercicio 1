@@ -11,3 +11,16 @@ int main()
     printf("a area do retangulo eh: 2.%i\n\n", b * h);
     printf("o perimetro do retangulo eh: 2.%i\n\n", 2 * b + h);
 }
+
+
+/*dado o tamanho do lado de um quadrado, calcular a área e o perímetro do mesmo*/
+#include <stdio.h>
+
+int main()
+{
+    int lado;
+    float area;
+    float perimetro;
+    
+    printf("determine o lado do quadrado: \n");
+    scanf("%i", &lado);
