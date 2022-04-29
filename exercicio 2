@@ -1,0 +1,34 @@
+//o usuario ira determinar um numero de 1 a 7 que aparecera o dia da semana por extenso
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+    int valor;
+    printf("determine um numero de 1 a 7 e descubra o dia da semana correspondente://> ");
+    scanf("%i",&valor);
+    
+    switch(valor)
+    {
+    case 1: printf("Segunda \n");
+    break;
+    
+    case 2: printf("Terca \n");
+    break;
+    
+    case 3: printf("Quarta \n");
+    break;
+    
+    case 4: printf("Quinta \n");
+    break;
+    
+    case 5: printf("Sexta \n");
+    break;
+    
+    case 6: printf("Sabado \n");
+    break;
+    
+    case 7: printf("Domingo \n");
+    break;
+    }
+}
