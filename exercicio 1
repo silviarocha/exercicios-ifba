@@ -1,15 +1,23 @@
+//calculo de area e perimetro do retangulo
 #include <stdio.h>
 
 int main()
 {
-    int b, h, a, p;
-    printf("digite a base do retangulo: \n");
-    scanf("%i", &b);
-    printf("digite a altura do retangulo: \n");
-    scanf("%i", &h);
+    int b;
+    int h;
+    int a;
+    int p; 
     
-    printf("a area do retangulo eh: 2.%i\n\n", b * h);
-    printf("o perimetro do retangulo eh: 2.%i\n\n", 2 * b + h);
+    printf("digite a base do retangulo: \n");
+    scanf("%d", &b);
+    printf("digite a altura do retangulo: \n");
+    scanf("%d", &h);
+    
+    a = b * h;
+    p = 2 * b + h;
+    
+    printf("a area do retangulo eh: %d\n\n", a);
+    printf("o perimetro do retangulo eh: %d\n\n", p);
 }
 
 
